@@ -55,6 +55,6 @@ a,
 a:visited,
 a:focus,
 a:active {
-  color: rgba(146, 190,	185);
+  color: rgb(146, 190,	185);
   text-decoration: none;
 }
