@@ -29,7 +29,6 @@ body {
 }
 
 .image {
-  border: 1px solid var(--white);
   margin: 2rem 0;
 }
 
