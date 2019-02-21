@@ -1,0 +1,61 @@
+:root {
+  --white: rgba(255, 255, 255, .9);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #343434;
+  color: var(--white);
+  font-family: 'Noto Serif', serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.main {
+  padding: 1.6rem;
+}
+
+.logo {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.headline {
+  font-size: 2rem;
+}
+
+.image {
+  border: 1px solid var(--white);
+  margin: 2rem 0;
+}
+
+.image__image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.social-links {
+  font-size: 1.4rem;
+  list-style-type: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.copyright {
+  border-top: 1px solid var(--white);
+  font-size: 1rem;
+  padding-top: .5rem;
+}
+
+a,
+a:visited,
+a:focus,
+a:active {
+  color: rgba(146, 190,	185);
+  text-decoration: none;
+}
