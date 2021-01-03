@@ -7,9 +7,11 @@ html {
 }
 
 body {
-  background-color: #343434;
+  backdrop-filter: blur(25px);
+  background: transparent url(../images/30.jpg) center center;
+  background-size: cover;
   color: var(--white);
-  font-family: 'Noto Serif', serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.6rem;
   line-height: 1.5;
   margin: 0;
@@ -17,6 +19,14 @@ body {
 
 .main {
   padding: 1.6rem;
+}
+
+.logo,
+.headline {
+  font-family: novecento-sans, sans-serif;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -33,13 +43,13 @@ body {
 }
 
 .image__image {
+  box-shadow: 0 4px 7px rgba(0, 0, 0, .25);
   display: block;
   height: auto;
-  max-width: 100%;
+  max-width: 1000px;
 }
 
 .social-links {
-  font-size: 1.4rem;
   list-style-type: none;
   margin: 2rem 0;
   padding: 0;
@@ -47,7 +57,6 @@ body {
 
 .copyright {
   border-top: 1px solid var(--white);
-  font-size: 1rem;
   padding-top: .5rem;
 }
 
@@ -55,6 +64,5 @@ a,
 a:visited,
 a:focus,
 a:active {
-  color: rgb(146, 190,	185);
-  text-decoration: none;
+  color: var(--white);
 }
