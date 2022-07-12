@@ -27,12 +27,12 @@ body {
 .headline {
   font-family: novecento-sans, sans-serif;
   font-weight: 700;
-  letter-spacing: .2rem;
   text-transform: uppercase;
 }
 
 .logo {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
+  letter-spacing: 1rem;
   margin: 0;
 }
 
@@ -46,7 +46,8 @@ body {
 }
 
 .image__image {
-  box-shadow: 0 4px 7px rgba(0, 0, 0, .25);
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, .5);
   display: block;
   height: auto;
   max-width: 100%;
